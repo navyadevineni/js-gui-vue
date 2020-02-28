@@ -91,6 +91,18 @@
      
         <h3 class="mt-2">{{sumofNumbers}}</h3>
       </article>
+      <article id="multiply" class="col-md-4">
+        <p> This one multiplies</p>
+        <fieldset class="mt-2">
+          <label for="num1"> Enter number: </label>
+          <input v-model="num1" id="num1" type="number" min="1" max="100">
+        </fieldset>
+        <fieldset class="mt-2">
+          <label for="num2"> Enter number: </label>
+          <input v-model="num2" id="num2" type="number" min="1" max="100">
+        </fieldset>
+        <h3 class="mt-2"> {{multiplication}}</h3>
+      </article>
 
       <article id="coder" class="col-md-4 ">
         <h2>Encrypt with the Viginere Cipher</h2>
